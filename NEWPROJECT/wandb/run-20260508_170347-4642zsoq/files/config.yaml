@@ -1,0 +1,74 @@
+_wandb:
+    value:
+        cli_version: 0.25.1
+        e:
+            3uyedx03fr9z9xgviim8p407ya3dx5ze:
+                codePath: DQN_Trainer.py
+                codePathLocal: DQN_Trainer.py
+                cpu_count: 10
+                cpu_count_logical: 16
+                cudaVersion: "13.2"
+                disk:
+                    /:
+                        total: "999218475008"
+                        used: "253327220736"
+                email: amitisraeli121@gmail.com
+                executable: c:\Users\amiti\AppData\Local\Programs\Python\Python312\python.exe
+                gpu: NVIDIA GeForce RTX 4060
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Ada
+                      cudaCores: 3072
+                      memoryTotal: "8585740288"
+                      name: NVIDIA GeForce RTX 4060
+                      uuid: GPU-7ea9f5f2-71a8-0d1e-a719-9f2aee5b4657
+                host: DESKTOP-1PRB0N7
+                memory:
+                    total: "34118275072"
+                os: Windows-11-10.0.26200-SP0
+                program: c:\Users\amiti\Personal\School\Python\NEWPROJECT\DQN_Trainer.py
+                python: CPython 3.12.8
+                root: C:\Users\amiti\Personal\School\Python\NEWPROJECT
+                startedAt: "2026-05-08T14:03:47.863571Z"
+                writerId: 3uyedx03fr9z9xgviim8p407ya3dx5ze
+        m: []
+        python_version: 3.12.8
+        t:
+            "1":
+                - 1
+            "2":
+                - 1
+            "3":
+                - 16
+            "4": 3.12.8
+            "5": 0.25.1
+            "8":
+                - 3
+            "12": 0.25.1
+            "13": windows-amd64
+C:
+    value: 300
+Model:
+    value: |-
+        DQN(
+          (linear1): Linear(in_features=12, out_features=32, bias=True)
+          (linear2): Linear(in_features=32, out_features=64, bias=True)
+          (output): Linear(in_features=64, out_features=1, bias=True)
+          (MSELoss): MSELoss()
+        )
+batch_size:
+    value: 64
+device:
+    value: cuda
+epochs:
+    value: 2000
+learning_rate:
+    value: 0.0001
+name:
+    value: Tetris_AI
+reward:
+    value: reward = lines_cleared * 1 - holes * 0.5 - bumpiness * 0.05  - height * 0.03
+start_epoch:
+    value: 0
+state:
+    value: state = np.concatenate([col_height, [bumpiness, holes]]).astype(np.float32)

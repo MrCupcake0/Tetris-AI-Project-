@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "c:\Users\amiti\Personal\School\Python\NEWPROJECT\DQN_Trainer.py", line 144, in <module>
+    main()
+  File "c:\Users\amiti\Personal\School\Python\NEWPROJECT\DQN_Trainer.py", line 86, in main
+    state_dqn = state.get_state1()
+                ^^^^^^^^^^^^^^^^
+AttributeError: 'State' object has no attribute 'get_state1'. Did you mean: 'get_state'?
