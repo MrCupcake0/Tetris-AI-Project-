@@ -1,0 +1,9 @@
+2026-05-22 11:45:24,631 INFO    MainThread:25036 [wandb_setup.py:_flush():81] Current SDK version is 0.25.1
+2026-05-22 11:45:24,631 INFO    MainThread:25036 [wandb_setup.py:_flush():81] Configure stats pid to 25036
+2026-05-22 11:45:24,631 INFO    MainThread:25036 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-05-22 11:45:24,631 INFO    MainThread:25036 [wandb_init.py:setup_run_log_directory():717] Logging user logs to C:\Users\amiti\Personal\School\Python\NEWPROJECT\wandb\run-20260522_114524-2lsw63rf\logs\debug.log
+2026-05-22 11:45:24,631 INFO    MainThread:25036 [wandb_init.py:setup_run_log_directory():718] Logging internal logs to C:\Users\amiti\Personal\School\Python\NEWPROJECT\wandb\run-20260522_114524-2lsw63rf\logs\debug-internal.log
+2026-05-22 11:45:24,632 INFO    MainThread:25036 [wandb_init.py:init():844] calling init triggers
+2026-05-22 11:45:24,632 INFO    MainThread:25036 [wandb_init.py:init():849] wandb.init called with sweep_config: {}
+config: {'name': 'Tetris_AI', 'epochs': 3000, 'learning_rate': 0.0001, 'C': 300, 'batch_size': 64, 'start_epoch': 0, 'Model': 'DQN(\n  (linear1): Linear(in_features=12, out_features=32, bias=True)\n  (linear2): Linear(in_features=32, out_features=64, bias=True)\n  (output): Linear(in_features=64, out_features=1, bias=True)\n  (MSELoss): MSELoss()\n)', 'device': 'cuda', 'state': 'state = np.array([height, bumpiness, holes]).astype(np.float32)', 'reward': 'reward = lines_cleared * 1 - holes * 0.5 - bumpiness * 0.1  - height * 0.03', 'epsilon_start': 1, 'epsilon_final': 0.01, 'epsilon_decay': 1500, '_wandb': {}}
+2026-05-22 11:45:24,632 INFO    MainThread:25036 [wandb_init.py:init():892] starting backend
